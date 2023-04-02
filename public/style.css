@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+.bookshelf{
+    display: flex;
+    offset: 2em;
+    gap:2em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book {
+    background-color: pink;
+    display: flex;
+}
+
+.book img{
+    height: 20em;
+    margin: 1em;
+}
